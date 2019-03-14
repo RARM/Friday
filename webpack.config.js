@@ -33,7 +33,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
           template: 'src/resources/html/index.html',
-          inject: 'head'
+          inject: 'body'
         })
     ],
 
