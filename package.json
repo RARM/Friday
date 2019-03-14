@@ -1,0 +1,24 @@
+{
+  "name": "friday",
+  "version": "0.1.0",
+  "description": "Friday counter",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RARM/Friday.git"
+  },
+  "author": "Rodolfo Andrés Rivas Matta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RARM/Friday/issues"
+  },
+  "homepage": "https://github.com/RARM/Friday#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
