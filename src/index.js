@@ -54,6 +54,16 @@ function updateClock() {
     daysLeft = 6;
   }
 
+  // Fixing dates
+//  var nextFridayData {
+//    year: timeStamp.getFullYear(),
+//    month: timeStamp.getMonth(),
+//    days: timeStamp.getDate() + daysLeft
+//  };
+//  if () {
+//
+//  }
+
   var nextFriday = new Date(timeStamp.getFullYear(), timeStamp.getMonth(), (timeStamp.getDate() + daysLeft));
 
   var distance = nextFriday.getTime() - timeStamp.getTime();
