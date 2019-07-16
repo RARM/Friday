@@ -1,6 +1,6 @@
 'use strict';
 
-const softwareVersion = '0.1.0';
+const softwareVersion = '1.0.1';
 
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -37,6 +37,7 @@ module.exports = {
         })
     ],
 
-    mode: 'development'
+    // Mode can be either development or production, or none
+    mode: 'production'
 
 };
