@@ -1,6 +1,6 @@
 'use strict';
 
-const softwareVersion = '1.0.1';
+const softwareVersion = '1.0.2';
 
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
