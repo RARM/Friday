@@ -1,10 +1,10 @@
 'use strict';
 
-const softwareVersion = '1.0.2';
+const softwareVersion = '1.0.3';
 
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
 
 module.exports = {
